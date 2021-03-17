@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=700px, initial-scale=1.0">
+    <title>My Project from scrach</title>
+    <script language="JavaScript" src="./script.js"></script>
+    <style>
+        td{width: 50px;height: 50px;}
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="firstp" style="position: absolute; top:20px; left:20px"> I am a Positive Writer! </p>
+    <button id="btn1" style="position: absolute; top:70px; left:20px" onClick="dimension();">Click on me to tel you the dimension</button>
+
+    <button id="btn2" style="position: absolute; top:120px; left:20px"onClick="drawLayer();">Draw A Layer With Shadow</button>
+    <table border="1" style="position: absolute; top:200px">
+        <thead>Select A Color To Change The box Color!</thead>
+        <tr>
+        <td id="obj1" style="background-color:#0000CC" onClick="changeColor(obj1)">&nbsp;</td>
+        <td id="obj2" style="background-color:#cc00c2" onClick="changeColor(obj2)">&nbsp;</td>
+        <td id="obj3" style="background-color:#00cc7e" onClick="changeColor(obj3)">&nbsp;</td>
+        </tr>
+        <tr>
+            <td id="obj4" style="background-color:#6c6cf3" onClick="changeColor(obj4)">&nbsp;</td>
+            <td id="obj5" style="background-color:#d385cf" onClick="changeColor(obj5)">&nbsp;</td>
+            <td id="obj6" style="background-color:#78c9aa" onClick="changeColor(obj6)">&nbsp;</td>
+        </tr>
+        <tr>
+            <td id="obj7" style="background-color:#cc8500" onClick="changeColor(obj7)">&nbsp;</td>
+            <td id="obj8" style="background-color:#f74c5a" onClick="changeColor(obj8)">&nbsp;</td>
+            <td id="obj9" style="background-color:#79f875" onClick="changeColor(obj9)">&nbsp;</td>
+        </tr>
+    </table>
+
+
+
+    <div id="myLayer1" style="visibility: hidden; position: absolute; top: 270px; left:320px; height:200px; width:200px; background-color: chocolate;" ></div>
+    <div id="myLayer2" style="visibility: hidden; position: absolute; top: 280px; left:330px; height:200px; width:200px; background-color:darksalmon"></div>
+
+    <div class="heart">
+
+    </div>
+</body>
+</html>
